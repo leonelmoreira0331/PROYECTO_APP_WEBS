@@ -29,7 +29,7 @@ const ParticipantesSchema = new Schema({
         required: true,
         trim: true
     },
-    email: {
+    correo: {
         type: String,
         required: true,
         trim: true,
