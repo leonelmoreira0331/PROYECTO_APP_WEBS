@@ -4,9 +4,6 @@ import {randomBytes} from "node:crypto";
 
 const {Schema} = moongoose;
 
-
-
-
 const ParticipantesSchema = new Schema({
 
     nombre: {

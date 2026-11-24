@@ -10,9 +10,10 @@ const app = express();
 dotenv.config();
 
 //Middlewares
+app.use(express.json())
+app.use(cors())
 
 //Variables globales
-
 app.set("port",process.env.PORT || 3000);
 
 //Rutas
