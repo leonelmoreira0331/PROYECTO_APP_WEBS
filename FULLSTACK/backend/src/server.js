@@ -1,7 +1,7 @@
 //Requerir modulos
 import express from "express"; 
 import dotenv from "dotenv";
-import routerVeterinarios from "./routers/señales_routes.js";
+import routerSeñales from "./routers/señales_routes.js";
 
 //Inicializaciones
 const app = express();
@@ -18,7 +18,7 @@ app.set("port",process.env.PORT || 3000);
 
 //Rutas
 
-app.use("/api",routerVeterinarios)
+app.use("/api",routerSeñales)
 
 
 //Exportar instancia de express por medio de app
